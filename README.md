@@ -2,17 +2,19 @@
 
 2.1 Clone the Repository
 
-git clone https://github.com/Pojetta/ml_regression_farris
+git clone https://github.com/Pojetta/ml_regression_farris   
+
 2.2 Create and Activate Virtual Environment
 
-uv venv
-uv python pin 3.12
-uv sync --extra dev --extra docs --upgrade
-uv run pre-commit install
-uv run python --version
+`uv venv`  
+`uv python pin 3.12`  
+`uv sync --extra dev --extra docs --upgrade`  
+`uv run pre-commit install`  
+`uv run python --version`  
+
 Activate:
 
-source .venv/bin/activate # macOS/Linux
+`source .venv/bin/activate`
 
 
 ## Workflow 3. Daily Workflow
