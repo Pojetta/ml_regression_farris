@@ -9,5 +9,5 @@ Each project follows a professional structure with reproducible environments, do
 
 Projects index:
 
-- [**Project 01: Title Here**](project01/README.md)
+- [**Project 06: Regression Analysis**](project06/README.md)
 
