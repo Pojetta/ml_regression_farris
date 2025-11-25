@@ -1,82 +1,21 @@
-# applied-ml-template
+## Workflow 2 – Set Up Project
 
-> Use this repo to start a professional Python project.
+2.1 Clone the Repository
 
-- Additional instructions: See the [pro-analytics-02](https://denisecase.github.io/pro-analytics-02/) guide.
-- Project organization: [STRUCTURE](./STRUCTURE.md)
-- Build professional skills:
-  - **Environment Management**: Every project in isolation
-  - **Code Quality**: Automated checks for fewer bugs
-  - **Documentation**: Use modern project documentation tools
-  - **Testing**: Prove your code works
-  - **Version Control**: Collaborate professionally
+git clone https://github.com/Pojetta/ml_regression_farris
+2.2 Create and Activate Virtual Environment
 
----
-
-## About this Repository
-
-Starter files for the example labs:
-
-- notebooks/example01 folder
-- notebooks/example02 folder
-
-## Folders for Projects
-
-Each project will be completed in its own folder.
-
-- notebooks/project01 folder:
-  - ml01.ipynb - COMPLETE THIS
-  - ml01.py - working script with just the code
-  - README.md - instructions - modify this to present your lab project
-
-## .vscode/ folder (DELETE if needed)
-
-- If you have troubles with files in the .vscode/ folder, you may delete this folder or modify the contents as needed. 
-- Share in discussions what contents are helpful - and if any cause issues. 
-
----
-
-## WORKFLOW 1. Set Up Machine
-
-Proper setup is critical.
-Complete each step in the following guide and verify carefully.
-
-- [SET UP MACHINE](./SET_UP_MACHINE.md)
-
----
-
-## WORKFLOW 2. Set Up Project
-
-After verifying your machine is set up, set up a new Python project by copying this template.
-Complete each step in the following guide.
-
-- [SET UP PROJECT](./SET_UP_PROJECT.md)
-
-It includes the critical commands to set up your local environment (and activate it):
-
-```shell
 uv venv
 uv python pin 3.12
 uv sync --extra dev --extra docs --upgrade
 uv run pre-commit install
 uv run python --version
-```
+Activate:
 
-**Windows (PowerShell):**
+source .venv/bin/activate # macOS/Linux
 
-```shell
-.\.venv\Scripts\activate
-```
 
-**macOS / Linux / WSL:**
-
-```shell
-source .venv/bin/activate
-```
-
----
-
-## WORKFLOW 3. Daily Workflow
+## Workflow 3. Daily Workflow
 
 Please ensure that the prior steps have been verified before continuing.
 When working on a project, we open just that project in VS Code.
