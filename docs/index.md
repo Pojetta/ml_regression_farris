@@ -1,9 +1,8 @@
-# Applied ML Projects
+# Applied ML Final Project
 
-Author: Your Name Here
+Author: Joanna Farris
 
-This repository contains applied machine learning projects using a modern Python workflow.
-Each project follows a professional structure with reproducible environments, documented analysis steps, and clear results.
+This project applies machine learning techniques to predict home sale prices using a combination of numeric and categorical housing features. The notebook walks through the full workflow — exploring the dataset, selecting and encoding features, training regression models, evaluating their performance, and comparing multiple modeling pipelines. The goal is to understand which home characteristics are most useful for prediction and how different preprocessing steps impact model accuracy.
 
 --- 
 
